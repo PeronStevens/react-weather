@@ -15,7 +15,7 @@ class App extends Component {
         
           var latitude  = position.coords.latitude,
               longitude = position.coords.longitude,
-              url = 'http://api.openweathermap.org/data/2.5/weather?lat='+ latitude +'&lon=' + longitude + '&APPID=b7abfc0c73102fb6b2cf4df7a8e14052';
+              url = 'https://api.openweathermap.org/data/2.5/weather?lat='+ latitude +'&lon=' + longitude + '&APPID=b7abfc0c73102fb6b2cf4df7a8e14052';
                               
           axios.get(url).then(function(response){
 
