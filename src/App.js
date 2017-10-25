@@ -21,7 +21,7 @@ class App extends Component {
 
               var iconElement     = document.getElementById('icon'),
                   iconName        = response.data.weather[0].icon,
-                  iconSrc         = 'http://openweathermap.org/img/w/' + iconName + '.png',
+                  iconSrc         = 'https://openweathermap.org/img/w/' + iconName + '.png',
                   condition       = response.data.weather[0].main,
                   kelvenTemp      = response.data.main['temp'],
                   fahrenTemp      = Math.round(9/5 * (kelvenTemp - 273) + 32);
