@@ -1,3 +1,3 @@
-# Weather app utilising browser Geolocation API
+# Weather app created using React
 
 https://breezey.herokuapp.com/
